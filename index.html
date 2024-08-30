@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Sobre Patos - Curiosidades e Informações</title>
+    <link rel="shortcut icon" href="duckfavicon.png" type="png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Azul claro para um visual tranquilo */
+            color: #2c3e50; /* Azul escuro para uma leitura fácil */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #00796b; /* Verde azulado para um toque natural */
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 5px solid #004d40;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: fadeInDown 2s ease-out;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 1200px;
+            margin: auto;
+            border-bottom: 3px solid #004d40;
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00796b;
+            position: relative;
+            display: inline-block;
+        }
+        section h2::after {
+            content: '';
+            width: 50px;
+            height: 5px;
+            background-color: #00796b;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .fact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .fact-grid div {
+            background-color: #ffffff; /* Branco para contraste com o verde */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .fact-grid div:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tudo Sobre Patos</h1>
+        <p>Curiosidades e informações sobre essas aves fascinantes</p>
+    </header>
+
+    <section>
+        <h2>Características dos Patos</h2>
+        <p>Os patos são aves aquáticas pertencentes à família Anatidae. Eles são conhecidos por sua plumagem impermeável, pés palmados e bicos achatados. Existem várias espécies de patos ao redor do mundo, cada uma com características únicas.</p>
+        <img src="https://img.freepik.com/fotos-gratis/patos-reais-nadando-em-um-lago-durante-o-dia_181624-13457.jpg" alt="Pato nadando no lago">
+    </section>
+
+    <section>
+        <h2>Habitat e Distribuição</h2>
+        <p>Patos são encontrados em quase todos os continentes, exceto na Antártica. Eles preferem viver em habitats aquáticos como lagos, rios, pântanos e zonas úmidas. Essas aves são altamente adaptáveis e podem viver em áreas urbanas e rurais.</p>
+        <img src="https://www.itakirsch.com.br/wp-content/uploads/2015/09/DSC7924-pato-animal-lago-sao-bernardo-sao-franscisco-de-paula-rs-small.jpg" alt="Lago com patos">
+    </section>
+
+    <section>
+        <h2>Alimentação dos Patos</h2>
+        <p>Patos são onívoros e se alimentam de uma variedade de alimentos, incluindo plantas aquáticas, pequenos peixes, insetos e grãos. Eles têm uma maneira única de se alimentar chamada "dabbling", onde eles mergulham a cabeça na água e filtram a comida com seus bicos.</p>
+        <img src="https://meusanimais.com.br/wp-content/uploads/2018/11/que-come-um-pato-domestico.jpg" alt="Pato se alimentando">
+    </section>
+
+    <section>
+        <h2>Curiosidades sobre Patos</h2>
+        <div class="fact-grid">
+            <div>
+                <h3>Comunicação Vocal</h3>
+                <p>Os patos têm uma ampla gama de vocalizações, incluindo grasnados, quacks e assobios. Cada som tem um significado específico, como chamar atenção ou avisar sobre perigos.</p>
+            </div>
+            <div>
+                <h3>Voos em V</h3>
+                <p>Quando migrando, os patos frequentemente voam em forma de "V" para economizar energia. Essa formação reduz a resistência do ar e permite que o grupo voe longas distâncias.</p>
+            </div>
+            <div>
+                <h3>Patos Famosos</h3>
+                <p>Personagens de patos como o Pato Donald e o Patolino são mundialmente conhecidos, mostrando a influência cultural dessas aves.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tudo Sobre Patos. Todos os direitos reservados. Desenvolvido com 💖.</p>
+    </footer>
+</body>
+</html>
